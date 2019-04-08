@@ -143,6 +143,10 @@ input[type=submit] {
 	position: absolute;
 }
 
+.cart_number p {
+	
+}
+
 .sidebar div {
 	float: left;
 }
