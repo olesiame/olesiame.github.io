@@ -87,3 +87,23 @@ ul li:hover .submenu {
 	background-color: white;
 	color: #2c71b8;
 }
+
+div .search {
+	width: 215px;
+}
+
+div .cart {
+	width: 8 5px;
+}
+
+input[type=text] {
+	font-size: 21px;
+	width: 200px;
+	height: 40px;
+	padding-left: 20px;
+	border: 1px solid #2c71b8;
+}
+
+input::-webkit-input-placeholder {
+	color: #2c71b8;
+}
