@@ -194,6 +194,30 @@ input[type=submit] {
 	width: 75%;
 }
 
+.mainpanel p {
+	margin: 15px 0px;
+}
+
+.mainpanel h1 {
+	margin: 0px 0px 30px 0px;
+}
+
+nav .sort li {
+	width: 270px;
+	height: 40px;
+	background-color: #2c71b8;
+	color: white;
+	border: 1px solid white;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+
+nav .sort li:hover {
+	background-color: white;
+	color: #2c71b8;
+}
+
 .items .item div {
 	width: 270px;
 	height: 652px;
@@ -207,19 +231,46 @@ input[type=submit] {
 	float: left;
 }
 
-.content_header {
+div .content_header {
 	float: left;
 }
 
+div .content_inside {
+	position: absolute;
+	width: 270px;
+	height: 40px;
+	margin-left: 570px;
+}
+
 .items .item .pic {
+	position: relative;
 	background-position: center;
-	background-image: url('images/left_line.png'), url('images/right_line.png');
+	background-image:
+	url('images/left_line.png'),
+	url('images/right_line.png'),
+	url('images/square.png'),
+	url('images/heart.png');
+	background-repeat: no-repeat;
+	background-position: 
+	0px 0px,
+	0px 0px,
+	95% 5%,
+	95% 25%;
 	width: 270px;
 	height: 180px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin: 0 auto;
+}
+
+.items .item .bg {
+	border: 1px solid #2c71b8;
+	width: 30px;
+	height: 30px;
+	background-color: transparent;
+	position: absolute;
+	margin: -72px 0px 0px 112px;
 }
 
 h1 {
