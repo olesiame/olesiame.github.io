@@ -88,7 +88,7 @@ ul li:hover .submenu {
 	color: #2c71b8;
 }
 
-.arrow {
+.arrow_blue {
 	background-image: url('images/arrow_blue.png');
 	background-repeat: no-repeat;
 	background-position: 125px;
@@ -336,4 +336,9 @@ main .subsort {
 ul li:hover .subsort {
 	display: block;
 	z-index: 1;
+}
+
+.sort .arrow_white {
+	background-image: url('images/arrow_white.png');
+	background-repeat: no-repeat;
 }
