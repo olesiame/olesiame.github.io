@@ -255,7 +255,7 @@ div .content_inside {
 	0px 0px,
 	0px 0px,
 	95% 5%,
-	95% 25%;
+	95% 31%;
 	width: 270px;
 	height: 180px;
 	display: flex;
@@ -272,6 +272,15 @@ div .content_inside {
 	position: absolute;
 	margin: -72px 0px 0px 112px;
 }
+
+/*.items .item .gb {
+	border: 1px solid #2c71b8;
+	width: 30px;
+	height: 30px;
+	background-color: transparent;
+	position: absolute;
+	margin: -32px 0px 0px 112px;
+}*/
 
 h1 {
 	font-size: 48px;
