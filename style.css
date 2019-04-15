@@ -282,8 +282,20 @@ div .content_inside {
 	margin: -32px 0px 0px 112px;
 }
 
-h1 {
+main h1 {
 	font-size: 48px;
 	font-weight: bold;
+	color: white;
+}
+
+main h2 {
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+
+main p {
+	font-size: 21px;
 	color: white;
 }
