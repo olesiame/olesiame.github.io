@@ -164,6 +164,11 @@ input[type=submit] {
 	float: left;
 }
 
+.display {
+	height: 400px;
+	border-bottom: 1px solid white;
+}
+
 .page {
 	width: 1170px;
 	min-height: 2200px;
