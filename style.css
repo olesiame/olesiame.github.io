@@ -207,22 +207,6 @@ input[type=submit] {
 	margin: 0px 0px 30px 0px;
 }
 
-nav .sort li {
-	width: 270px;
-	height: 40px;
-	background-color: #2c71b8;
-	color: white;
-	border: 1px solid white;
-	display: flex;
-	align-items: center;
-	padding: 20px;
-}
-
-nav .sort li:hover {
-	background-color: white;
-	color: #2c71b8;
-}
-
 .items .item div {
 	width: 270px;
 	height: 652px;
@@ -321,4 +305,35 @@ main .display p {
 
 main .bread_crumbs {
 	text-decoration: underline;
+}
+
+main .sort a {
+	width: 270px;
+	height: 40px;
+	background-color: #2c71b8;
+	color: white;
+	border: 1px solid white;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	text-decoration: none;
+}
+
+main .sort li {
+	position: relative;
+}
+
+main .subsort {
+	position: absolute;
+	display: none;
+}
+
+.sort a:hover {
+	background-color: white;
+	color: #2c71b8;
+}
+
+ul li:hover .subsort {
+	display: block;
+	z-index: 1;
 }
