@@ -264,7 +264,7 @@ div .content_inside {
 	margin: 0 auto;
 }
 
-.items .item .bg {
+.items .item .bg1 {
 	border: 1px solid #2c71b8;
 	width: 30px;
 	height: 30px;
@@ -273,14 +273,14 @@ div .content_inside {
 	margin: -72px 0px 0px 112px;
 }
 
-/*.items .item .gb {
+.items .item .bg2 {
 	border: 1px solid #2c71b8;
 	width: 30px;
 	height: 30px;
 	background-color: transparent;
 	position: absolute;
 	margin: -32px 0px 0px 112px;
-}*/
+}
 
 h1 {
 	font-size: 48px;
