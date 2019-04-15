@@ -166,7 +166,7 @@ input[type=submit] {
 
 .display {
 	height: 400px;
-	border-bottom: 1px solid white;
+	border-bottom: 2px solid white;
 }
 
 .page {
@@ -181,6 +181,13 @@ input[type=submit] {
 
 .sidepanel {
 	width: 25%;
+}
+
+.sidepanel .sidepanel_content {
+	width: 270px;
+	height: 845px;
+	border-right: 2px solid white;
+	background-color: rgba(255,255,255,0.25);
 }
 
 .mainpanel {
