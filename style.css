@@ -300,7 +300,12 @@ main h2 {
 	text-align: center;
 }
 
-main p {
+main .mainpanel p {
+	font-size: 14px;
+	color: #96b8dc;
+}
+
+main .items p {
 	font-size: 21px;
 	color: white;
 }
@@ -312,4 +317,8 @@ main .display p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+main .bread_crumbs {
+	text-decoration: underline;
 }
