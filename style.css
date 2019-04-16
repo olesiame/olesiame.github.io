@@ -520,3 +520,15 @@ input [type=checkbox] {
 	justify-content: center;
 	align-items: center;
 }
+
+.arrow_white{
+	background-image: url('images/arrow_white.png');
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+}
+
+.arrow_white:hover{
+	background-image: url('images/arrow_blue.png');
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+}
