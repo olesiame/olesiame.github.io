@@ -291,6 +291,7 @@ main h2 {
 	font-weight: bold;
 	color: white;
 	text-align: center;
+	padding-top: 15px;
 }
 
 main .mainpanel p {
