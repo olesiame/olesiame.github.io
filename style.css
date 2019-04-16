@@ -292,6 +292,7 @@ main h2 {
 	color: white;
 	text-align: center;
 	padding-top: 15px;
+
 }
 
 main .mainpanel p {
@@ -302,6 +303,7 @@ main .mainpanel p {
 main .items p {
 	font-size: 21px;
 	color: white;
+	padding-left: 15px;
 }
 
 main .display p {
@@ -452,7 +454,7 @@ input [type=checkbox] {
 }
 
 .price {
-	padding-top: 20px;
+	padding-top: 5px;
 	color: white;
 	display: flex;
 	justify-content: center;
@@ -474,6 +476,7 @@ input [type=checkbox] {
 	background-color: #2c71b8;
 	color: white;
 	margin-left: 30px;
+	margin-top: -10px;
 }
 
 .add_to_cart_btn {
