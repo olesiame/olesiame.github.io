@@ -88,6 +88,12 @@ ul li:hover .submenu {
 	color: #2c71b8;
 }
 
+.arrow_blue a:hover {
+	background-image: url('images/arrow_white.png');
+	background-repeat: no-repeat;
+	background-position: 125px;
+}
+
 .arrow_blue {
 	background-image: url('images/arrow_blue.png');
 	background-repeat: no-repeat;
@@ -176,7 +182,6 @@ input[type=text] {
 
 .page {
 	width: 1170px;
-	min-height: 2200px;
 	margin: 0 auto;
 }
 
@@ -500,4 +505,18 @@ input [type=checkbox] {
 .add_to_cart_btn:hover {
 	background-color: rgba(255,255,255,0.75);
 	color: #2c71b8;
+}
+
+.montainer div {
+	width: 1170px;
+}
+
+.load_more {
+	margin-left: 140px;
+	height: 110px;
+	font-size: 36px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
