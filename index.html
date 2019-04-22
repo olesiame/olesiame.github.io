@@ -40,14 +40,13 @@
 				<div class="col-3">
 					<div class="sidebar">
 						<div class="search">
-							<form>
+							<form method="get">
 								<input type="text" placeholder="search" name="search">
 								<input type="submit" value="" class="header_submit">
 							</form>
 						</div>
 						<div class="cart">
-							<div class="cart_number"><p>4</p>
-							</div>
+							<div class="cart_number" id="products-count"><p>0</p></div>
 						</div>
 					</div>
 				</div>
@@ -129,7 +128,7 @@
 						<div class="first_row item">
 					<div>
 					<div class="pic">
-						<img src="images/1.png" alt="device1" name="device1"><div class="bg1"></div><div class="bg2"></div>
+						<img src="images/1.png" alt="device1" name="device1"><input type="button" name="loop" value="" class="bg1"><input type ="button" name="loop" value "" class="bg2">
 					</div>
 					<div class="text">
 						<h2>#1 Device Name</h2>
@@ -139,8 +138,8 @@
 						<p>RAM: 1GB</p>
 						<p class="price"><span class="dollars">$599</span><span class="coins">25</span></p>
 						<div>
-							<input type="submit" value="MORE DETAILS" class="details_btn">
-							<input type="submit" value="ADD TO CART" class="add_to_cart_btn">
+							<input type="button" value="MORE DETAILS" class="details_btn">
+							<input type="button" value="ADD TO CART" class="add_to_cart_btn add-to-cart">
 						</div>
 					</div>
 				</div>
@@ -156,8 +155,8 @@
 						<p>RAM: 1GB</p>
 						<p class="price"><span class="dollars">$1250</span><span class="coins">99</span></p>
 						<div>
-							<input type="submit" value="MORE DETAILS" class="details_btn">
-							<input type="submit" value="ADD TO CART" class="add_to_cart_btn">
+							<input type="button" value="MORE DETAILS" class="details_btn">
+							<input type="button" value="ADD TO CART" class="add_to_cart_btn add-to-cart">
 						</div>
 					</div>
 				</div>
@@ -173,8 +172,8 @@
 						<p>RAM: 1GB</p>
 						<p class="price"><span class="dollars">$399</span><span class="coins">50</span></p>
 						<div>
-							<input type="submit" value="MORE DETAILS" class="details_btn">
-							<input type="submit" value="ADD TO CART" class="add_to_cart_btn">
+							<input type="button" value="MORE DETAILS" class="details_btn">
+							<input type="button" value="ADD TO CART" class="add_to_cart_btn add-to-cart">
 						</div>
 					</div>
 				</div>
@@ -192,8 +191,8 @@
 						<p>RAM: 1GB</p>
 						<p class="price"><span class="dollars">$599</span><span class="coins">25</span></p>
 						<div>
-							<input type="submit" value="MORE DETAILS" class="details_btn">
-							<input type="submit" value="ADD TO CART" class="add_to_cart_btn">
+							<input type="button" value="MORE DETAILS" class="details_btn">
+							<input type="button" value="ADD TO CART" class="add_to_cart_btn add-to-cart">
 						</div>
 					</div>
 				</div>
@@ -209,8 +208,8 @@
 						<p>RAM: 1GB</p>
 						<p class="price"><span class="dollars">$1250</span><span class="coins">99</span></p>
 						<div>
-							<input type="submit" value="MORE DETAILS" class="details_btn">
-							<input type="submit" value="ADD TO CART" class="add_to_cart_btn">
+							<input type="button" value="MORE DETAILS" class="details_btn">
+							<input type="button" value="ADD TO CART" class="add_to_cart_btn add-to-cart">
 						</div>
 					</div>
 				</div>
@@ -226,8 +225,8 @@
 						<p>RAM: 1GB</p>
 						<p class="price"><span class="dollars">$399</span><span class="coins">50</span></p>
 						<div>
-							<input type="submit" value="MORE DETAILS" class="details_btn">
-							<input type="submit" value="ADD TO CART" class="add_to_cart_btn">
+							<input type="button" value="MORE DETAILS" class="details_btn">
+							<input type="button" value="ADD TO CART" class="add_to_cart_btn add-to-cart">
 						</div>
 					</div>
 				</div>
@@ -245,8 +244,8 @@
 						<p>RAM: 1GB</p>
 						<p class="price"><span class="dollars">$599</span><span class="coins">25</span></p>
 						<div>
-							<input type="submit" value="MORE DETAILS" class="details_btn">
-							<input type="submit" value="ADD TO CART" class="add_to_cart_btn">
+							<input type="button" value="MORE DETAILS" class="details_btn">
+							<input type="button" value="ADD TO CART" class="add_to_cart_btn add-to-cart">
 						</div>
 					</div>
 				</div>
@@ -262,8 +261,8 @@
 						<p>RAM: 1GB</p>
 						<p class="price"><span class="dollars">$1250</span><span class="coins">99</span></p>
 						<div>
-							<input type="submit" value="MORE DETAILS" class="details_btn">
-							<input type="submit" value="ADD TO CART" class="add_to_cart_btn">
+							<input type="button" value="MORE DETAILS" class="details_btn">
+							<input type="button" value="ADD TO CART" class="add_to_cart_btn add-to-cart">
 						</div>
 					</div>
 				</div>
@@ -279,15 +278,15 @@
 						<p>RAM: 1GB</p>
 						<p class="price"><span class="dollars">$399</span><span class="coins">50</span></p>
 						<div>
-							<input type="submit" value="MORE DETAILS" class="details_btn">
-							<input type="submit" value="ADD TO CART" class="add_to_cart_btn">
+							<input type="button" value="MORE DETAILS" class="details_btn">
+							<input type="button" value="ADD TO CART" class="add_to_cart_btn add-to-cart">
 						</div>
 					</div>
 				</div>
 					</div>
 					</div>
 				</div>
-														<div class="montainer">
+				<div class="montainer">
 					<div class="load_more">Load more ...</div>
 				</div>
 						</div>
@@ -298,5 +297,6 @@
 			<p>© Copyright 2017</p>
 		</div>
 	</footer>
+	<script src="app.js"></script>
 </body>
 </html>

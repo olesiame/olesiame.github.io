@@ -241,14 +241,14 @@ div .content_inside {
 	background-image:
 	url('images/left_line.png'),
 	url('images/right_line.png'),
-	url('images/square.png'),
-	url('images/heart.png');
+/*	url('images/square.png'),
+	url('images/heart.png');*/
 	background-repeat: no-repeat;
 	background-position: 
 	0px 0px,
 	0px 0px,
-	95% 5%,
-	95% 31%;
+/*	95% 5%,
+	95% 31%;*/
 	width: 270px;
 	height: 180px;
 	display: flex;
@@ -268,6 +268,9 @@ div .content_inside {
 }
 
 .items .item .bg1 {
+	background-image: url('images/square.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
 	border: 1px solid #2c71b8;
 	width: 30px;
 	height: 30px;
@@ -277,12 +280,23 @@ div .content_inside {
 }
 
 .items .item .bg2 {
+	background-image: url('images/heart.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
 	border: 1px solid #2c71b8;
 	width: 30px;
 	height: 30px;
 	background-color: transparent;
 	position: absolute;
 	margin: -32px 0px 0px 112px;
+}
+
+.items .item .bg1:hover {
+	background-color: white;
+}
+
+.items .item .bg2:hover {
+	background-color: #2c71b8;
 }
 
 main h1 {
@@ -407,6 +421,7 @@ label:before {
 	border: 1px solid white;
 	position: absolute;
 	margin-left: -30px;
+	margin-top: 5px;
 }
 
 input[type="checkbox"]:checked + label:before {
@@ -487,8 +502,12 @@ input [type=checkbox] {
 .add_to_cart_btn {
 	width: 210px;
 	height: 50px;
+	padding-right: 30px;
 	border: 1px solid white;
 	font-size: 21px;
+	background-image: url('images/cart.png');
+	background-repeat: no-repeat;
+	background-position: 93% 45%;
 	background-color: transparent;
 	background-color: rgba(255,255,255,0.25);
 	color: white;
