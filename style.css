@@ -267,7 +267,7 @@ div .content_inside {
 	margin: 0 auto;
 }
 
-.items .item .bg1 {
+.items .item .zoom {
 	background-image: url('images/square.png');
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
@@ -279,7 +279,7 @@ div .content_inside {
 	margin: -72px 0px 0px 112px;
 }
 
-.items .item .bg2 {
+.items .item .like {
 	background-image: url('images/heart.png');
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
@@ -291,12 +291,20 @@ div .content_inside {
 	margin: -32px 0px 0px 112px;
 }
 
-.items .item .bg1:hover {
+.items .item .zoom:hover {
 	background-color: white;
 }
 
-.items .item .bg2:hover {
+.items .item .like:hover {
 	background-color: #2c71b8;
+}
+
+input .zoom {
+	width: 30px;
+	height: 30px;
+	background-color: transparent;
+	position: absolute;
+	margin: -72px 0px 0px 112px;
 }
 
 main h1 {

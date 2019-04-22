@@ -11,3 +11,6 @@ for(var i = 0; i < addToCartButtons.length; i++) {
 	productsCountEl.textContent = prevProductsCount + 1
 })
 }
+
+function myFunction() {
+    document.querySelectorAll('.show-like').style.color = "red";
